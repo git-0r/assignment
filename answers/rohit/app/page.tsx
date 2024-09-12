@@ -38,7 +38,7 @@ export default function Home() {
     !loading && (
       <div className="max-w-screen-xl mx-auto">
         <h1 className="text-center text-4xl font-bold underline mb-8 mx-4">
-          Pi42 Assignment
+          Crypto Tracker
         </h1>
         <ShareDialog open={open} setOpen={setOpen} contract={sharedContract} />
         <ContractTable shareContract={shareContract} />

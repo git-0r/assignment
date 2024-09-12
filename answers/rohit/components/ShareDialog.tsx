@@ -45,7 +45,8 @@ export default function ShareDialog({ open, setOpen, contract }: Props) {
         <DialogHeader>
           <DialogTitle>Share link</DialogTitle>
           <DialogDescription>
-            Welcome to Pi42! Today&apos;s update on {contract?.symbol}.
+            Welcome to crypto tracker! Today&apos;s update on {contract?.symbol}
+            .
           </DialogDescription>
         </DialogHeader>
         {contract && (
